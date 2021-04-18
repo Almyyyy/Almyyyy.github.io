@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+
+    .row {
+      display: -ms-flexbox; 
+      display: flex;
+      -ms-flex-wrap: wrap; 
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .25s ease;
+      background-color: #000000;
+    }
+
+    .container:hover .overlay {
+      opacity: 0.5;
+    }
+
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    @media (max-width: 1000px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            padding: 0 4px;
+        }
+    }
+
+    @media (min-width: 1001px) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            padding: 0 4px;
+        }
+    }
+
+    @media (min-width: 2001px) {
+        .column {
+            -ms-flex: 25%;
+            flex: 25%;
+            padding: 0 4px;
+        }
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="header" id="myHeader">
+      <h1>Portfolio</h1>
+      <p>boh una descrizione.</p>
+    </div>
+
+    <div class="row"> 
+        <div class="column"><div class="container"><img src="imgs/1.jpeg" class="image"><div class="overlay"><div class="text">NOME.</div></div></div></div>
+        <div class="column"><div class="container"><img src="imgs/2.jpeg" class="image"><div class="overlay"><div class="text">NOME.</div></div></div></div>
+        <div class="column"><div class="container"><img src="imgs/3.jpeg" class="image"><div class="overlay"><div class="text">NOME.</div></div></div></div>
+        <div class="column"><div class="container"><img src="imgs/4.jpeg" class="image"><div class="overlay"><div class="text">NOME.</div></div></div></div>
+        <div class="column"><div class="container"><img src="imgs/5.jpeg" class="image"><div class="overlay"><div class="text">NOME.</div></div></div></div>
+        <div class="column"><div class="container"><img src="imgs/6.jpg" class="image"><div class="overlay"><div class="text">NOME.</div></div></div></div>
+        <div class="column"><div class="container"><img src="imgs/5.jpeg" class="image"><div class="overlay"><div class="text">NOME.</div></div></div></div>
+        <div class="column"><div class="container"><img src="imgs/6.jpg" class="image"><div class="overlay"><div class="text">NOME.</div></div></div></div>
+        <div class="column"><div class="container"><img src="imgs/7.jpg" class="image"><div class="overlay"><div class="text">NOME.</div></div></div></div>
+    </div>
+  </body>
+</html>
