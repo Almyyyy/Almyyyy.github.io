@@ -15,7 +15,7 @@ body {
 
 
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -51,22 +51,7 @@ a {
   display: none;
 }
 
-#toggle1:checked + .hamburger1 .top {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  margin-top: 22.5px;
-}
 
-#toggle1:checked + .hamburger1 .meat {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  margin-top: -5px;
-}
-
-#toggle1:checked + .hamburger1 .bottom {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-}
 
 #toggle1:checked ~ .menu1 {
   height: 340px;
@@ -76,7 +61,7 @@ a {
 /* Menu */
 .menu1 {
   width: 100%;
-  background-color: #02173F;
+  background-color: #fff;
   margin: 0;
   display: -ms-grid;
   display: grid;
@@ -107,12 +92,11 @@ a {
   width: 100%;
   margin: 0;
   padding: 10px 0;
-  font: 700 20px 'Oswald', sans-serif;
 }
 
 .link1:hover {
-  background-color: #fff;
-  color: rgb(61, 61, 61);
+  background-color: #000;
+  color: #fff;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -219,9 +203,6 @@ ul li:hover a {
 	background-color: #FFFFFF;
 	padding-top: 150px;
 	padding-bottom: 150px;
-	
-	display: inline-block;
-	margin-top: 0px;
 }
 .light {
 	font-weight: bold;
