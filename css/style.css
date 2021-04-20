@@ -143,6 +143,11 @@ a {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+	.header {
+  position: fixed;
+		width: 768px;
+}
+	
   .header li {
     float: left;
   }
