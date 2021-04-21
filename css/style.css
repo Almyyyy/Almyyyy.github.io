@@ -32,9 +32,11 @@ a {
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+	
   position: -webkit-sticky;
   position: sticky;
 	top: 0;
+	
   width: 100%;
   z-index: 3;
 }
@@ -144,15 +146,15 @@ a {
 
 @media (min-width: 48em) {
 	.header {
-  position: fixed;
-		width: 768px;
+ 
+		width: 100%;
 }
 	
   .header li {
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 20px 20px;
   }
   .header .menu {
     clear: none;
@@ -169,6 +171,11 @@ a {
 
 
 
+
+
+.hero-video {
+  width: 100%;
+}
 
 
 
