@@ -31,17 +31,15 @@ a {
 
 .header {
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-	
-  position: fixed;
+	background-color: #fff;
+		position: -webkit-sticky;
+  position: sticky;
 	top: 0;
 	
-  width: 90%;
+  width: 100%;
   z-index: 3;
 	
 	
-	background: #ECF1F524;
-  mix-blend-mode: normal;
-backdrop-filter: blur(15px);
   
   overflow:hidden;
 }
@@ -57,7 +55,6 @@ backdrop-filter: blur(15px);
   display: block;
   padding: 20px 20px;
   text-decoration: none;
-	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 .header li a:hover,
@@ -73,7 +70,6 @@ backdrop-filter: blur(15px);
   	text-decoration: none;
 	font-weight: bold;
 	letter-spacing: 3px;
-	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 /* menu */
@@ -154,7 +150,7 @@ backdrop-filter: blur(15px);
 
 @media (min-width: 48em) {
 	.header {
-		width: 90%;
+		width: 100%;
 	}
 	
   .header li {
