@@ -32,11 +32,10 @@ a {
 .header {
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 	
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
 	top: 0;
 	
-  width: 100%;
+  width: 90%;
   z-index: 3;
 	
 	
@@ -52,13 +51,13 @@ backdrop-filter: blur(15px);
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
   text-decoration: none;
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 .header li a:hover,
@@ -74,6 +73,7 @@ backdrop-filter: blur(15px);
   	text-decoration: none;
 	font-weight: bold;
 	letter-spacing: 3px;
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 /* menu */
@@ -154,8 +154,8 @@ backdrop-filter: blur(15px);
 
 @media (min-width: 48em) {
 	.header {
-		width: 100%;
-}
+		width: 90%;
+	}
 	
   .header li {
     float: left;
