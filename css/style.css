@@ -1,15 +1,4 @@
-@charset "UTF-8";
 
-body {
-	font-family: 'Text Me One', sans-serif;
-	background-color: #f3f3f3;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-style: normal;
-	font-weight: 200;
-}
 
 
 
@@ -204,11 +193,7 @@ a {
 
 
 
-.container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 
 
