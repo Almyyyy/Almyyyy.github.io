@@ -70,55 +70,6 @@
 }
 
 
-.button a {
-	width: 200px;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 0px;
-	font-weight: bold;
-	letter-spacing: 2px;
-	display: block;
-	color: #000000;
-	border: 3px solid #000000;
-	transition: all 0.3s linear;
-	text-decoration: none;
-}
-
-.button a:hover {
-	color: #FFFFFF;
-	background-color: #000000;
-	text-decoration: none;
-}
-
-.copyright {
-	text-align: center;
-	padding: 20px;
-	background-color: #717070;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 2px;
-	border-top-width: 2px;
-}
-.footer_banner {
-	background-color: #FFFFFF;
-	padding-top: 60px;
-	padding-bottom: 60PX;
-	margin-bottom: 0px;
-	background-image: url(../images/pattern.png);
-	background-repeat: repeat;
-}
-footer {
-	display: inline-block;
-}
 
 
 /* Mobile */
