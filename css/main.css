@@ -182,23 +182,12 @@ body {
   	height: 50px;
 }
 
-.social {
-    padding-left: 0px;
- }
+.social {padding-left: 0px;}
 
-.social a{
-	text-decoration: none;	
+.social a{text-decoration: none;}
+
+.social li {	
 	color: #000;
-}
-
-.social a:hover {
-	text-decoration: none;	
-	color: #fff;
-}
-
-
-.social li {
-    list-style-type: none;
     display: inline-block;
     width: 30px;
     height: 30px;
