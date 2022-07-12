@@ -39,6 +39,23 @@ body {
     width:33.33%;
 }
 
+.name-hero {
+    bottom:0;
+    height:290px;
+    left:0;
+    margin:auto;
+    position:absolute;
+    right:0;
+    top:0;
+    width:85%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -124,18 +141,7 @@ body {
   }
   
   
-  .name-hero
-  {
-      background:rgba(0,0,0,.001);
-      bottom:0;
-      height:290px;
-      left:0;
-      margin:auto;
-      position:absolute;
-      right:0;
-      top:0;
-      width:85%;
-  }
+
   
   .me-img
   {
