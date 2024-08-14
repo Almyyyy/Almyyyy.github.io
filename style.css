@@ -17,28 +17,13 @@ body {
 }
 
 .left {
-  background-color:#C9B79C;
+  background-color:#F0F0F0;
   float:right;
   height:100%;
   min-width:256px;
   position:fixed;
   width:35%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .name-hero {
     bottom:0;
@@ -50,21 +35,6 @@ body {
     top:0;
     width:85%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
 .circle {
     width: 200px;
@@ -97,22 +67,6 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .skill-set li
 {
     border-radius:5px;
@@ -122,25 +76,17 @@ body {
     margin:15px 15px 0 0;
     padding:10px;
     text-align:justify;
-    background: linear-gradient(to right, #71816D 70%, #DA667B 30%);
+    background: linear-gradient(to right, #d09595 70%, #d09595 30%);
 }
 
-
-
-
-  
-  
-  
-
-  
-  .right
-  {
-      float:right;
-      height:100%;
-      position:relative;
-      width:65%;
-      background-color:#F1E0C5;
-  }
+.right
+{
+  float:right;
+  height:100%;
+  position:relative;
+  width:65%;
+  background-color:#FFF;
+}
   
   
 
